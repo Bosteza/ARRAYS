@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+	
+	int t1[5],x,t2[5],t3[5],o;
+	
+		
+	for(int x=0;x<=4;x++){
+		
+		/*printf("1, 2 o 3?\n");
+     	scanf("%d", &o);
+     	
+     	if(o=1){
+     		t3[x]=t1[x]+t2[x];	
+     	
+     	if else (o=2){
+     		t3[x]=t1[x]-t2[x];
+     	
+     	if else (o=3){
+     		t3[x]=t1[x]*t2[x];/*/
+     	
+		
+		printf("Escribe un num para t1 :\n");
+      	scanf("%d", &t1[x]);
+
+      	printf("Escribe un num para t2 :\n");
+     	scanf("%d", &t2[x]);
+     	
+     
+     
+     	//t3[x]=t1[x]*t2[x];
+     	//t3[x]=t1[x]-t2[x];
+		t3[x]=t1[x]+t2[x];
+}
+	 printf("\nResultado:\n");
+  	 for(int x= 0 ; x<=4; x++)
+     printf("%d\n", t3[x]);
+     
+    
+	return 0;
+}
